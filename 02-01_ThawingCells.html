@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimental Procedure Article</title>
+    <link rel="stylesheet" href="styles_subarticles.css"> <!-- เชื่อมโยงไฟล์ CSS ถ้ามี -->
+</head>
+
+<body>
+    <header>
+        <img src="images/VClab_logo_white.png" alt="Logo">
+        <h1>Knowledge Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <div class="category-icon">
+            <img src="images/icons/lab.png" alt="Lab Icon">
+            <font style="font-size: 12px;">
+                <b>Edited by:</b> Damita, Narita</font>
+                <font style="font-size: 12px; text-align: right;">
+                    <b>Updated date:</b> Dec 15th, 2023</font>
+        </div>
+
+        <section id="display-ads">
+            <center><h2> Cell preparation: Thawing cells (Demuxlet protocol)</h2></center>
+            <p style="margin-top: 15px;margin-bottom: 15px;"><span class="tab"></span>This article provides details on the chemical analysis experiment and includes information on the chemicals used.</p>
+        </section>
+
+        <div class="article-info">
+
+            <table id="table-1" class="center" style="width: 95%;">
+                <tr>
+                  <th colspan="2" style="font-size: 20px;width: 25%;"> <b>Materials</b></th>
+                  <th colspan="2" style="font-size: 20px;width: 25%;"> <b>Consumables</b></th>
+                  <th colspan="2" style="font-size: 20px;width: 25%;"> <b>Instruments & Equipments</b></th>
+                </tr>
+                <tr>
+                    <td>1. RPMI 1640 Medium, no glutamine Thermo Fisher Catalog #21870076</td>
+                    <td style="text-align: center;"> <img src="https://www.thermofisher.com/TFS-Assets/BID/product-images/21870076_650x600.jpg-250.jpg" 
+                      style="height: 50px;" /> </td>
+                      <td>1. 50 mL centrifuge tube</td>
+                      <td style="text-align: center;"> <img src="images/instruments/CentrifugeTube_15and50mL.jpeg" 
+                        style="height: 50px;" /></td>
+                    <td>1. Sorvall LYNX-6000 Superspeed centrifuge</td>
+                    <td style="text-align: center;"> <img src="images/instruments/Centrifuge_Sorvall-LYNX6000-Superspeed.jpg" 
+                        style="height: 50px;" /></td>
+                </tr>
+                <tr>
+                    <td>2. Human Serum Sigma Aldrich Catalog #H4522</td>
+                    <td style="text-align: center;"> <img src="https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/product/images/283/679/4f5eece1-b755-4e51-8367-56cc1dad62f7/800/4f5eece1-b755-4e51-8367-56cc1dad62f7.jpg" 
+                      style="height: 50px;" /> </td>
+                    <td>2. 15 mL centrifuge tube</td>
+                  <td style="text-align: center;"> <img src="images/instruments/CentrifugeTube_15and50mL.jpeg" 
+                    style="height: 50px;" /></td>
+                    <td>2. Eppendorf 5810R centrifuge</td>
+                    <td style="text-align: center;"> <img src="images/instruments/Centrifuge_Eppendrof-5810R.jpg" 
+                        style="height: 50px;" /></td>
+                </tr>
+                <tr>
+                    <td>3. Fetal Bovine Serum Sigma Aldrich Catalog #F2442</td>
+                    <td style="text-align: center;"> <img src="https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/product/images/551/110/fb72980f-91de-41ef-adaa-7317513bd9c4/800/fb72980f-91de-41ef-adaa-7317513bd9c4.jpg" 
+                      style="height: 50px;" /> </td>
+                      <td>3. Serological pipette</td>
+                  <td style="text-align: center;"> <img src="images/instruments/SerologicalPipette.jpeg" 
+                    style="height: 50px;" /></td>
+                    <td>3. Pipette gun/PipetteX</td>
+                    <td style="text-align: center;"> <img src="images/instruments/PipetteX.jpeg" 
+                        style="height: 50px;" /></td>
+                  </tr>
+                  <tr>
+                    <td>4. L-Glutamine (200 mM) Gibco - Thermo Fischer Catalog #25030081</td>
+                    <td style="text-align: center;"> <img src="https://www.thermofisher.com/TFS-Assets/LSG/product-images/A2916801_650x600.jpg-250.jpg" 
+                      style="height: 50px;" /> </td>
+                      <td>4. 5 mL Eppendorf Tube</td>
+                  <td style="text-align: center;"> <img src="https://www.mls.be/wp-content/uploads/produmex/Eppendorf_buizen_5ml.jpg" 
+                    style="height: 50px;" /></td>
+                    <td>4. Countess Automated Cell Counter</td>
+                    <td style="text-align: center;"> <img src="images/instruments/Countess_3.jpeg" 
+                        style="height: 50px;" /></td>
+                  </tr>
+                  <tr>
+                    <td>5. Penicillin-Streptomycin (10,000 U/mL) Thermo Fisher ScientificCatalog #15140122</td>
+                    <td style="text-align: center;"> <img src="https://www.thermofisher.com/TFS-Assets/LSG/product-images/15140-122_650x600.jpg-250.jpg" 
+                      style="height: 50px;" /> </td>
+                      <td>5. 1.5 mL Eppendorf Tube</td>
+                  <td style="text-align: center;"> <img src="images/instruments/1.5mLEppendorfTube.jpeg" 
+                    style="height: 50px;" /></td>
+                    <td>5. Waterbath</td>
+                    <td style="text-align: center;"> <img src="images/instruments/Waterbath.png" 
+                        style="height: 50px;" /></td>
+                  </tr>
+                  <tr>
+                    <td>6. Gibco™ DPBS no calcium no magnesium Thermo Fisher Scientific Catalog #14190144</td>
+                    <td style="text-align: center;"> <img src="https://assets.fishersci.com/TFS-Assets/CCG/EU/Gibco/product-images/14190-144_650X600.jpg-650.jpg" 
+                        style="height: 50px;" /></td>
+                        <td>6. 0.2 mL PCR Tube</td>
+                  <td style="text-align: center;"> <img src="images/instruments/0.2mLPCRTube.jpeg" 
+                    style="height: 50px;" /></td>
+                    <td>6. Mr.Frosty</td>
+                    <td style="text-align: center;"> <img src="images/instruments/MrFrosty.webp" 
+                        style="height: 50px;" /></td>
+                  </tr>
+                  <tr>
+                    <td>7. BSA (Capricorn Scientific; Cat. No.: BSA-1S)</td>
+                    <td style="text-align: center;"> <img src="https://www.appletonwoods.co.uk/wp-content/uploads/2021/03/BSA-PF-1S-600x600.jpg" 
+                        style="height: 50px;" /></td>
+                      <td>7. Filter tips</td>
+                  <td style="text-align: center;"> <img src="images/instruments/FilterTip.jpeg" 
+                    style="height: 50px;" /></td>
+                    <td>6. Mr.Frosty</td>
+                    <td style="text-align: center;"> <img src="images/instruments/MrFrosty.webp" 
+                        style="height: 50px;" /></td>
+                  </tr>
+                  <tr>
+                    <td>8. Trypan Blue Solution 0.4% Thermo Fisher Scientific Catalog #15250061</td>
+                    <td style="text-align: center;"> <img src="https://www.thermofisher.com/TFS-Assets/BID/product-images/15250061_650x600.jpg-250.jpg" 
+                        style="height: 50px;" /> </td>
+                      <td>68. 40 µm cell strainer (FACS tubes)</td>
+                  <td style="text-align: center;"> <img src="https://www.stemcell.com/media/catalog/product/3/8/38030_product_1_e2a0.jpg" 
+                    style="height: 50px;" /></td>
+                    <td>6. Mr.Frosty</td>
+                    <td style="text-align: center;"> <img src="images/instruments/MrFrosty.webp" 
+                        style="height: 50px;" /></td>
+                  </tr>
+
+                  <tr>
+                    <td>9. Glycerol</td>
+                    <td style="text-align: center;"> <img src="https://thermofishervn.com/images/products/2023/02/17/large/g065015_1676625896.png" 
+                        style="height: 50px;" /> </td>
+                      <td>68. 0.4 μM Filter</td>
+                  <td style="text-align: center;"> <img src="https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/product/images/296/320/4165c4a2-7192-42da-85b3-6e995b37fd8e/800/4165c4a2-7192-42da-85b3-6e995b37fd8e.jpg" 
+                    style="height: 50px;" /></td>
+                    <td>6. Mr.Frosty</td>
+                    <td style="text-align: center;"> <img src="images/instruments/MrFrosty.webp" 
+                        style="height: 50px;" /></td>
+                  </tr>
+              </table>
+
+           <!--
+            <article id="main-article">
+                <h1> Article Box </h1>
+                <section> You can write or mention your article description here </section>
+            </article>
+
+            <aside id='sidebar'>
+                <h1> Slider Box </h1>
+                <section> You can write or mention your Slider description here </section>
+            </aside> -->
+
+        </div>
+
+        <section id="header-2">
+            <h3>Preparation of Reagents and Media</h3>
+        </section>
+        <section id="main-body-container" style="font-family: Arial;">
+            <p style="color: brown;margin-left: 20px;margin-top: 15px;">Warm all at <img src="images/icons/temp.png" style="height: 20px;"> <font style="background-color:#bae1ff;">37°C</font> in waterbath 
+            </p>
+            <table class="center" style="width: 70%;">
+                <caption><b>Thawing Media for 16 samples - Total 180 mL</b></caption>
+                <tr>
+                    <th style="width: 500px;height: 40%;">Reagents
+                    </th>
+                    <th style="width: 100px;height: 30%;"">Volume
+                    </th>
+                </tr>
+                <tr>
+                    <td>- RPMI</td>
+                    <td style="text-align: right;"> 167.4 mL </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:rgb(243, 243, 243);">- 5% Human Serum</td>
+                    <td style="text-align: right; background-color:rgb(243, 243, 243);"> 9 mL </td>
+                  </tr>
+                  <tr>
+                    <td>- 1% Pen/strep</td>
+                    <td style="text-align: right;"> 1.8 mL </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:rgb(243, 243, 243);">- 1% glutamine</td>
+                    <td style="text-align: right; background-color:rgb(243, 243, 243);"> 1.8 mL </td>
+                  </tr>
+              </table>
+            <br />
+
+            <table class="center" style="width: 70%;">
+                <caption><b>Wash Media for 16 samples - Total 100 mL</b></caption>
+                <tr>
+                    <th style="width: 500px;height: 40%;">Reagents
+                    </th>
+                    <th style="width: 100px;height: 30%;"">Volume
+                    </th>
+                </tr>
+                <tr>
+                    <td>- RPMI</td>
+                    <td style="text-align: right;"> 88 mL </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:rgb(243, 243, 243);">- 10% Fetal Bovine Serum <font style="color:brown;">(Heated)</font></td>
+                    <td style="text-align: right; background-color:rgb(243, 243, 243);"> 10 mL </td>
+                  </tr>
+                  <tr>
+                    <td>- 1% Pen/strep</td>
+                    <td style="text-align: right;"> 1 mL </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:rgb(243, 243, 243);">- 1% glutamine</td>
+                    <td style="text-align: right; background-color:rgb(243, 243, 243);"> 1 mL </td>
+                  </tr>
+              </table>
+            <br />
+
+            <table class="center" style="width: 70%;">
+                <caption><b>PBS-0.04% BSA</b><br /><font style="color:brown;">Freshly prepare</font></caption>
+                <tr>
+                    <th style="width: 500px;height: 40%;">Reagents
+                    </th>
+                    <th style="width: 100px;height: 30%;"">Volume
+                    </th>
+                </tr>
+                <tr>
+                    <td>- D-PBS</td>
+                    <td style="text-align: right;"> 200 mL </td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:rgb(243, 243, 243);">- BSA</td>
+                    <td style="text-align: right; background-color:rgb(243, 243, 243);"> 0.08 g</td>
+                  </tr>
+              </table>
+              <p style="color: blue;margin-left: 15%;">Then, filter PBS-0.04% BSA using 0.4 uM filter in <b>HOOD</b>.</p>
+            <br />
+
+            <table class="center" style="width: 70%;">
+                <caption><b>50% Glycerol</b></caption>
+                <tr>
+                    <th style="width: 500px;height: 40%;">Reagents
+                    </th>
+                    <th style="width: 100px;height: 30%;"">Volume
+                    </th>
+                </tr>
+                <tr>
+                    <td>- Glycerol</td>
+                    <td style="text-align: right;"> 5 mL</td>
+                  </tr>
+                  <tr>
+                    <td style="background-color:rgb(243, 243, 243);">- Nuclease Free Water (NFW)</td>
+                    <td style="text-align: right; background-color:rgb(243, 243, 243);"> 5 mL</td>
+                  </tr>
+              </table>
+              <p style="color: blue;margin-left: 15%;">Then, filter in  <b>HOOD</b>.</p>
+            <br />
+        </section>
+
+        <section id="header-2">
+            <h3> Thawing and Preparation</h3>
+        </section>
+        <div class="article-info">
+            <ol style="margin-left: 20px;margin-right: 20px;">
+                <li>
+                    Add <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">9 mL</font> of thawing media at <img src="images/icons/temp.png" style="height: 20px;"> <font style="background-color:#bae1ff;">37°C</font> into a 15 mL Falcon tube. <i>(Prepare 16 tubes)</i>
+                </li>
+                <br />
+                <p style="color: brown;"><b>When ready!!</b>
+                </p>
+                <li>
+                    Transfer 16 tubes of PBMCs to a <img src="images/icons/temp.png" style="height: 20px;"> <font style="background-color:#bae1ff;">37°C</font> water bath and thaw for <img src="images/icons/time.png" style="height: 20px;"> <font style="background-color:#ffffba;">1-2 mins</font> (depends on volume in cryotube). <i>(Thaw 1-2 tubes at a time)</i>
+                </li>
+                <br />
+                <li>
+                    After thawing cells, open the cryotube under the laminar hood and add <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">1 mL</font> of <font style="background-color:#baffc9;">warmed thawing media</font> <b>dropwise</b>, using <b>wide-bore blue tips</b>.
+                </li>
+                    <br />
+                <li>
+                    Gently transfer the entire cell suspension (cells with 1 mL thawing media from <b>step 3</b>) into the 15 mL Falcon tube containing <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">9 mL</font> of <font style="background-color:#baffc9;">warmed thawing media</font> <b>wide-bore blue tips</b>.
+                    <br />
+                    <img src="images/icons/caution.png" style="height: 20px;"> <b><font style="color:red;">NOTE:</font></b> Add the suspension gently, either dropwise or while keeping the tube at a 45° angle.
+                </li>
+                <br />
+                <li>
+                    Mix the solution extremely gently by pipetting (3-4 times) using wide-bore blue tips, <font style="color:red;"><u>avoiding</u></font> any bubbling. 
+                    <br />
+                    <img src="images/icons/caution.png" style="height: 20px;"> <b><font style="color:red;">NOTE:</font></b> Cells at this stage are very fragile!
+                </li>
+                <br />
+                <li>
+                    Centrifuge at <img src="images/icons/setting.png" style="height: 20px;"> <font style="background-color:gainsboro;">300 g</font> for <img src="images/icons/time.png" style="height: 20px;"> <font style="background-color:#ffffba;">5 mins</font> and discard the supernatant.
+                </li>
+                <br />
+                <li>
+                    <b>1<sup>st</sup> wash:</b> Resuspend the cell pellet in <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">5 mL</font> of <font style="background-color:#baffc9;">warmed thawing media</font> by pipetting (5-10 times) gently using <b>wide-bore blue tips</b>.
+                </li>
+                <br />
+                <li>
+                    Centrifuge at <img src="images/icons/setting.png" style="height: 20px;"> <font style="background-color:gainsboro;">300 g</font> for <img src="images/icons/time.png" style="height: 20px;"> <font style="background-color:#ffffba;">5 mins</font> and discard the supernatant.
+                </li>
+                <br />
+                <li>
+                    <b>2<sup>nd</sup> wash:</b> Resuspend the cell pellet in <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">3 mL</font> of <font style="background-color:#baffc9;">PBS + 0.04% BSA</font>.
+                </li>
+                <br />
+                <li>
+                    Centrifuge at <img src="images/icons/setting.png" style="height: 20px;"> <font style="background-color:gainsboro;">300 g</font> for <img src="images/icons/time.png" style="height: 20px;"> <font style="background-color:#ffffba;">5 mins</font> and discard the supernatant.
+                </li>
+                <br />
+                <li>
+                    <b>3<sup>rd</sup> wash:</b> Resuspend the cell pellet in <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">3 mL</font> of <font style="background-color:#baffc9;">PBS + 0.04% BSA</font>.
+                </li>
+                <br />
+                <li>
+                    Filter the cells through a 40 µm cell strainer (FACS tubes) to remove clumps or debris.
+                </li>
+                <br />
+                <li>
+                    Aliquot <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">15 µL</font> of cells + <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">15 µL</font> of <font style="background-color:#baffc9;">Trypan blue</font> and count using Countess II.
+                    <br />
+                    <img src="images/icons/caution.png" style="height: 20px;"> <b><font style="color:red;">NOTE:</font></b> Cells are kept on<b><img src="images/icons/ice.png" style="height: 20px;"> ICE</b> during cell count!
+                </li>
+                <br />
+                <p style="color: brown;"><b>** Thaw Gel beads from -80°C freezer for at least <img src="images/icons/time.png" style="height: 20px;"> <font style="background-color:#ffffba;">30 mins</font>, thaw 10x reagents, open PCR and open Chromium X</b>
+                </p>
+                <br />
+                <li>
+                    Calculate and make aliquots of 1.2×10<sup>6</sup> cells/mL for each sample (<img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">~500 µL</font>; depends on cell concentration).
+                    <br />
+                    <img src="images/icons/caution.png" style="height: 20px;"> <b><font style="color:red;">NOTE:</font></b>  If number of live cells <font style="color: green;">> 1.2</font>×10<sup>6</sup>/mL, add <font style="color:darkblue;"><b>cells</b></font> and <font style="color:rebeccapurple;"><b>PBS+0.04% BSA</b></font> following the table below.
+                    <br />
+                    <b>&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;</b>If number of live cells <font style="color: brown;">< 1.2</font>×10<sup>6</sup>/mL, centrifuge cell suspension at <img src="images/icons/setting.png" style="height: 20px;"> <font style="background-color:gainsboro;">300 g</font> for <img src="images/icons/time.png" style="height: 20px;"> <font style="background-color:#ffffba;">5 mins</font>, discard the supernatant, add <font style="color:saddlebrown;"><b>PBS+0.04% BSA</b></font> following the table below and resuspend the cell pellet. After that, add <font style="color:darkblue;"><b>cells</b></font> and <font style="color:rebeccapurple;"><b>PBS+0.04% BSA</b></font> following the table below.
+                </li>
+                <br />
+
+
+        <table class="special-table" style="width: 80%; border: solid 1px black; border-collapse: collapse;">
+            <tr style="text-align: center; background-color: #bae1ff;">
+                <th>Sample ID</th>
+                <th>Number of Live cells
+                    <br />
+                    (10<sup>6</sup> cells/mL)</th>
+              <th>Volume (mL)</th>
+              <th>Total 10<sup>6</sup> cells</th>
+              <th>Needed 10<sup>6</sup> cells/mL</th>
+              <th style="color: saddlebrown;">Add PBS+0.04% BSA (µL)</th>
+              <th style="color: darkblue;">Dilute cells to 1.2x10<sup>6</sup>
+                <br />
+                cells volume (µL)</th>
+              <th style="color: rebeccapurple;">Dilute cells to 1.2x10<sup>6</sup>
+                <br />
+                PBS+0.04% BSA volume (µL)</th>
+                <th>Total volume (µL)</th>
+              <th>diluted cells volume (µL) used</th>
+              <th>% Cell viability</th>
+              <th>Volume of 1.2x10<sup>6</sup> cells in total volume</th>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>Sample 1</td>
+                <td style="color: green;">1.65</td>
+                <td>0.500</td>
+                <td>0.825</td>
+                <td>1.2</td>
+                <td style="background-color:silver;"><s>87.5</s></td>
+                <td style="background-color:lemonchiffon; color: darkblue;"><b>145.5</b></td>
+                <td style="background-color:lemonchiffon; color:rebeccapurple;"><b>54.5</b></td>
+                <td style="background-color:lemonchiffon;">200</td>
+                <td style="background-color:lemonchiffon;">100</td>
+                <td>91</td>
+                <td>0.69</td>
+              </tr>
+
+              <tr style="text-align: center;">
+                <td>Sample 2</td>
+                <td style="color: green;">1.4</td>
+                <td>0.200</td>
+                <td>0.280</td>
+                <td>1.2</td>
+                <td style="background-color:silver;"><s>233.3</s></td>
+                <td style="background-color:lemonchiffon; color: darkblue;"><b>171.4</b></td>
+                <td style="background-color:lemonchiffon; color:rebeccapurple;"><b>28.6</b></td>
+                <td style="background-color:lemonchiffon;">200</td>
+                <td style="background-color:lemonchiffon;">100</td>
+                <td>85</td>
+                <td>0.23</td>
+              </tr>
+
+              <tr style="text-align: center;">
+                <td>Sample 3</td>
+                <td style="color: brown;">1.09</td>
+                <td>0.200</td>
+                <td>0.218</td>
+                <td>1.2</td>
+                <td style="background-color:lemonchiffon; color: saddlebrown;"><b>181.7</b></td>
+                <td style="background-color:silver;"><s>220.2</s></td>
+                <td style="background-color:silver;"><s>-20.2</s></td>
+                <td style="background-color:silver;"><s>200</s></td>
+                <td style="background-color:lemonchiffon;">110.09</td>
+                <td>79</td>
+                <td>0.18</td>
+              </tr>
+
+              <tr style="text-align: center;">
+                <td>Sample 4</td>
+                <td style="color: green;">1.27</td>
+                <td>0.500</td>
+                <td>0.635</td>
+                <td>1.2</td>
+                <td style="background-color:silver;"><s>529.2</s></td>
+                <td style="background-color:lemonchiffon; color: darkblue;"><b>189</b></td>
+                <td style="background-color:lemonchiffon; color:rebeccapurple;"><b>11</b></td>
+                <td style="background-color:lemonchiffon;">200</td>
+                <td style="background-color:lemonchiffon;">100</td>
+                <td>86</td>
+                <td>0.53</td>
+              </tr>
+          </table>
+          <br />
+
+          <li>
+            Mix <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">100 µL</font> of each 1.2×10<sup>6</sup> cells/mL. The total volume should be <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">1.6 mL</font> of 1.2×10<sup>6</sup> cells/mL.
+        </li>
+        <br />
+        <li>
+            Count pooled cells again. Cell concentration shoulde be 1.2×10<sup>6</sup> cells/mL.
+        </li>
+        <br />
+        <li>
+            Keep leftover cells of individuals in <img src="images/icons/temp.png" style="height: 20px;"> <font style="background-color:#bae1ff;">4°C</font> before DNA extraction on the same day.
+        </li>
+      </ol>
+</div>
+
+        <br />
+        <section id="header-2">
+            <h3>Single-cell Experiment</h3>
+        </section>
+        <div class="article-info">
+            <p style="color:blue;margin-left: 20px;margin-top: 15px;margin-bottom: 15px;">Collected PBMC viability > 75%</p>
+            <ol style="margin-left: 20px;margin-right: 20px;">
+                <li>Prepare 10X reagents from <a href="#https://cdn.10xgenomics.com/image/upload/v1666737555/support-documents/CG000331_ChromiumNextGEMSingleCell5-v2_UserGuide_RevE.pdf">Chromium Single Cell 5' Reagent Kits User Guide (v2 Chemistry Dual Index)</a>
+                </li>
+                <br />
+                <li>
+                    Take <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">33.3 µL</font> of the <font style="background-color:#baffc9;">pooled cell suspension</font> with <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">5.4 µL</font> of <font style="background-color:#baffc9;">NFW</font> for further processing of single-cell capturing using Chromium X. Loading 40,000 cells with targeted recovery of 23,000 cells.
+                    <br />
+                    <img src="images/icons/caution.png" style="height: 20px;"> <b><font style="color:red;">NOTE:</font></b> Refer to the table below for the corresponding number of loaded cells.
+                    <br />
+                    <img src="images/Cell_Suspension_Volume_Calculator_Table.png" class="img-center" style="width: 70%;">
+                </li>
+                <br />
+                <li>
+                    Add <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">5.4 µL</font> of <font style="background-color:#baffc9;">NFW</font> in <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">36.3 µL</font> of <font style="background-color:#baffc9;">GEM master mix</font> before add <img src="images/icons/volume.png" style="height: 20px;"> <font style="background-color:#ffb3ba;">33.3 µL</font> of <font style="background-color:#baffc9;">cell suspension</font>.
+                    <br />
+                    <table class="center" style="width: 70%;">
+                        <tr>
+                            <td style="width: 30%;"><img src="images/Cells_with_MasterMix.png" style="height: 200px;"></td>
+                            <td style="width: 40%;"><font style="color: red;"><b>33.3 μL of Cell suspension</font></b>
+                                <br />
+                                <br />
+                                <font style="color: #36aace;"><b>36.3 μL of GEM Master mix +<br />
+                                5.4 μL of NFW</font></b>
+                            </td>
+                        </tr>
+                    </table>
+                    <img src="images/icons/caution.png" style="height: 20px;"> <b><font style="color:red;">NOTE:</font></b> Volume of each reagents depend on number of needed cells.
+                </li>
+                <br />
+                <li>
+                    Add <font style="background-color:#baffc9;">Glycerol</font> in unused wells.
+                    <br />
+                    <img src="images/Chip_Glycerol.png" class="img-center" style="width: 50%;">
+                </li>
+            </ol>
+        </div>
+
+        <h4>References</h4>
+        <div style="margin-left: 20px; margin-right: 20px; font-size: 15px;">
+        <ul>
+            <li><a href="https://www.protocols.io/view/demuxlet-cell-preparation-protocol-n2bvjyb55vk5/v2">Demuxlet Cell Preparation Protocol V.2</a></li>
+            <li><a href="https://docs.google.com/document/d/1UblTiIAYxjF0ea0zvKHQEkEeBu5OptJA/edit?usp=sharing&ouid=113046834160530193785&rtpof=true&sd=true">Experimental plans_AIDA and Covid Vaccine</a> p.88-90</li>
+          </ul>
+          </div>
+
+    </article>
+
+    <!-- Add more articles or content as needed -->
+    <footer>
+        <div class="footer-content">
+            <p>Contact: sarintip.ngu@mahidol.edu</p>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
